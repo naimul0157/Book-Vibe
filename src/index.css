@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.active{
+    color: green;
+    border: 1px solid green;
+}
+.active:hover{
+    background-color: transparent;
+}
+li a:hover{
+    border: 1px dotted red;
+    background-color: transparent;
+}
