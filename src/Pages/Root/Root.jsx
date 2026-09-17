@@ -6,7 +6,7 @@ import Banner from '../../components/Banner/Banner';
 
 const Root = () => {
     return (
-        <div className='md:w-4/5 mx-auto'>
+        <div>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
