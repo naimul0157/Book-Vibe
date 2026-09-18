@@ -1,9 +1,10 @@
 import React from 'react';
+import Readlist from '../Readlist/Readlist';
 
 const ListedBooks = () => {
     return (
         <div>
-            This is listed books section
+            <Readlist></Readlist>
         </div>
     );
 };
