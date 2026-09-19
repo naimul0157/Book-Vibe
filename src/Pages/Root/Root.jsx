@@ -6,7 +6,7 @@ import Banner from '../../components/Banner/Banner';
 
 const Root = () => {
     return (
-        <div>
+        <div className='flex flex-col justify-between'>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
